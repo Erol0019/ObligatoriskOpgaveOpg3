@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Document</title>
+</head>
+<body>  
+</body>
+</html>
+<body>
+    <h1>String Manipulation</h1>
+        <div id="app">
+            <input id="inputField" v-model="word" placeholder="ord"/>   
+                <button id="button" v-on:click="sayHello()" >
+                    Show
+                </button>
+            <div id="outputField" v-if="word">
+                <ul>
+                    <li>{{besked}}</li>
+                    <li>{{besked1}}</li>
+                    <li>{{besked2}}</li>
+                    <li>{{besked3}}</li>
+                    <li>{{besked4}}</li>
+                    <li>{{besked5}}</li>
+                </ul>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-dark">{{besked}}</li>
+                <li class="list-group-item list-group-item-light">{{besked1}}</li>
+                <li class="list-group-item list-group-item-dark">{{besked2}}</li>
+                <li class="list-group-item list-group-item-light">{{besked3}}</li>
+                <li class="list-group-item list-group-item-dark">{{besked4}}</li>
+                <li class="list-group-item list-group-item-light">{{besked5}}</li>
+            </ul>
+        </div>
+    </div>
+<script src="Index.js"></script>
+</body>
+</html>
